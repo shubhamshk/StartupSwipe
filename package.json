@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
+  "name": "launchswipe",
+=======
   "name": "startup-swipe",
+>>>>>>> 15e5a03 (2nd commit e)
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +13,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
+    "react": "19.0.0-rc-66855b96-20241106",
+    "react-dom": "19.0.0-rc-66855b96-20241106",
+    "next": "15.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "15.0.3"
+  }
+}
+=======
     "@hookform/resolvers": "^3.9.0",
     "@next/swc-wasm-nodejs": "13.5.1",
     "@radix-ui/react-accordion": "^1.2.0",
@@ -73,3 +94,4 @@
     "zod": "^3.23.8"
   }
 }
+>>>>>>> 15e5a03 (2nd commit e)

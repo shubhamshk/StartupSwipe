@@ -1,3 +1,23 @@
+<<<<<<< HEAD
+import type { Config } from "tailwindcss";
+
+export default {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        background: "var(--background)",
+        foreground: "var(--foreground)",
+      },
+    },
+  },
+  plugins: [],
+} satisfies Config;
+=======
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
@@ -88,3 +108,4 @@ const config: Config = {
   plugins: [require('tailwindcss-animate')],
 };
 export default config;
+>>>>>>> 15e5a03 (2nd commit e)

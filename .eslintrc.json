@@ -1,3 +1,7 @@
 {
+<<<<<<< HEAD
+  "extends": ["next/core-web-vitals", "next/typescript"]
+=======
   "extends": "next/core-web-vitals"
+>>>>>>> 15e5a03 (2nd commit e)
 }
